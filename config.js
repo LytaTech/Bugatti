@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "254740007567; Marisel"
+const ownervb = process.env.OWNERS || "2347084528285; Marisel"
 
 
 const ownerlist = ownervb.split(';');
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['254740007566', '254790375710']
-global.prems = ['254790375710', '254740007567']
-global.allowed = ['254740007567', '254790375710']
+global.mods = ['2347084528285', '2347084528285']
+global.prems = ['2347084528285', '2347084528285']
+global.allowed = ['2347084528285', '2347084528285']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -74,11 +74,11 @@ global.premium = 'false'
 global.packname = 'Bugatti'
 global.author = 'Marisel'
 global.menuvid = 'https://files.catbox.moe/r9oil6.mp4'
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/\n'
-global.dygp = 'https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x'
-global.fgsc = 'https://github.com/'
-global.fgyt = 'https://youtube.com/'
-global.fgpyp = 'https://youtube.com/'
+global.igfg = '▢ Follow on Instagram\nhttps://youtube.com/@lytamanhwa?si=SSGIo59bI9RvwwmC\n'
+global.dygp = 'https://youtube.com/@lytamanhwa?si=SSGIo59bI9RvwwmC'
+global.fgsc = 'https://youtube.com/@lytamanhwa?si=SSGIo59bI9RvwwmC'
+global.fgyt = 'https://youtube.com/@lytamanhwa?si=SSGIo59bI9RvwwmC'
+global.fgpyp = 'https://youtube.com/@lytamanhwa?si=SSGIo59bI9RvwwmC'
 global.fglog = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
 global.thumb = fs.readFileSync('./Assets/Bugatti.jpg')
 
